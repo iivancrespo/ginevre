@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+}
+.fuente{
+    font-family: "STIX Two Text", serif;
+    font-weight: bold;
+}
+
+.fuenteFine{
+    font-size: x-large;
+
+}
+
+.sombra:hover{
+    box-shadow: inset 0px 0px 20px 7px black;
+}
+
+.sombraRosa:hover{
+    box-shadow: inset 0px 0px 20px 2px #fccdd5;
+}
+
+.sombraAzul:hover{
+    box-shadow: inset 0px 0px 20px 2px #000049;
+}
+
+.sombraYellow:hover{
+    box-shadow: inset 0px 0px 20px 2px yellow;
+}
+
+.sombraGold:hover{
+    box-shadow: inset 0px 0px 20px 2px goldenrod;
+}

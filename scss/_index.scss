@@ -1,0 +1,190 @@
+#grid {
+    display: grid;
+    grid-template-areas:
+        "header header header header header"
+        "gin1 gin2 gin3 gin4 gin5"
+        " footer footer footer footer footer";
+    grid-template-rows: 130px 600px 100px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+body {
+    .headers {
+        display: flex;
+        width: auto;
+        height: auto;
+        align-items: flex-end;
+
+        .tituloIndex {
+            align-self: center;
+            width: auto;
+            height: auto;
+            padding-left: 40%;
+            font-size: xxx-large;
+            text-shadow: 1px 2px 0px goldenrod;
+            letter-spacing: 1px;
+            margin-top: 1%;
+        }
+    }
+
+    .subTit {
+        align-self: flex-end;
+        margin-left: -26.5%;
+    }
+}
+
+header {
+    grid-area: header;
+    background-color: rgb(236, 236, 236);
+}
+footer {
+    grid-area: footer;
+    background-image: linear-gradient(to bottom, rgb(236, 236, 236), rgb(49, 49, 49));
+}
+body {
+    div {
+        .gin1 {
+            grid-area: gin1;
+            background-image: url("../images/dry.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position-x: center;
+            background-position: bottom;
+            border-top: white 3px solid;
+            border-bottom: white 3px solid;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+    .gin1:hover {
+        transform: scale(0.9, 0.9);
+        opacity: 0.9;
+        
+        
+    }
+    .gin2 {
+        grid-area: gin2;
+        background-image: url("../images/pink.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        border-top: white 3px solid;
+        border-bottom: white 3px solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: white;
+    }
+
+    .gin2:hover {
+        transform: scale(0.9, 0.9);
+        opacity: 0.9;
+    }
+    .gin3 {
+        grid-area: gin3;
+        background-image: url("../images/blue.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        border-top: white 3px solid;
+        border-bottom: white 3px solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: white;
+    }
+
+    .gin3:hover {
+        transform: scale(0.9, 0.9);
+        opacity: 0.9;
+    }
+    .gin4 {
+        grid-area: gin4;
+        background-image: url("../images/citrus.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: initial;
+        border-top: white 3px solid;
+        border-bottom: white 3px solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: white;
+    }
+
+    .gin4:hover {
+        transform: scale(0.9, 0.9);
+        opacity: 0.9;
+    }
+    .gin5 {
+        grid-area: gin5;
+        background-image: url("../images/gold.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+        border-top: white 3px solid;
+        border-bottom: white 3px solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: white;
+    }
+
+    .gin5:hover {
+        transform: scale(0.9, 0.9);
+        opacity: 0.9;
+    }
+
+    .textHiden {
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        font-family: "STIX Two Text", serif;
+        font-size: xx-large;
+    }
+
+    .textHiden:hover {
+        opacity: 1;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        place-items: center;
+        display: inline-flex;
+        text-align: -webkit-center;
+    }
+}
+
+footer {
+    div {
+        .listFIndex {
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            justify-content: space-between;
+            height: auto;
+            width: auto;
+            margin-top: 3%;
+            margin-right: 2%;
+            font-family: "STIX Two Text", serif;
+            font-weight: bold;
+            font-size: larger;
+        }
+
+        .listFooter {
+            text-decoration: none;
+            color: black;
+        }
+
+        .listFooter:hover {
+            background-color: goldenrod;
+        }
+    }
+}
