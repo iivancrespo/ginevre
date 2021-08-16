@@ -77,10 +77,8 @@ main {
     .boxPompe:hover {
         transform: scale(0.9, 0.9);
         display: contents;
-        
     }
 
-    
     .textHiden2 {
         opacity: 0;
         width: 100%;
@@ -89,7 +87,6 @@ main {
         font-size: xx-large;
         color: black;
         text-decoration: none;
-        
     }
 
     .textHiden2:hover {
@@ -103,8 +100,8 @@ main {
     }
 }
 
-.section2:hover{
-    transform: scale(0.9,0.9);
+.section2:hover {
+    transform: scale(0.9, 0.9);
     opacity: 0.94;
 }
 
@@ -118,25 +115,25 @@ footer {
 
 header {
     .buttonBack {
-        height: fit-content;
-        width: fit-content;
         text-decoration: none;
         background-color: lightgrey;
         color: black;
+        display: flex;
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
     }
 
     .buttonBack:hover {
         background-color: goldenrod;
+        text-decoration: none;
+
+        color: black;
+        display: flex;
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
     }
 
-    .titulo {
-        align-self: center;
-        width: auto;
-        height: auto;
-        padding-left: 25%;
-        font-size: xxx-large;
-        text-shadow: 1px 2px 0px goldenrod;
-        letter-spacing: 1px;
-        margin-top: 1%;
-    }
+   
 }

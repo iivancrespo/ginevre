@@ -1,0 +1,197 @@
+.gridTragos {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "gin1 gin11"
+        "gin2 gin22"
+        "gin3 gin33"
+        "gin4 gin44"
+        "gin5 gin55"
+        "footer footer";
+    grid-template-rows: 1fr 2fr 2fr 2fr 2fr 2fr 1fr;
+    grid-template-columns: 50% 50%;
+}
+
+body {
+    .dry1 {
+        grid-area: gin1;
+        background-image: url("../images/tonic.jpeg");
+        background-size: 27vh;
+        background-repeat: repeat-x;
+        background-position-x: center;
+        background-position: center;
+        border-top: white 3px solid;
+        border-bottom: white 3px solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: white;
+        background-color: rgb(236, 236, 236);
+    }
+
+    .gin11 {
+        background-image: url("../images/limon.jpg");
+        background-size: cover;
+        opacity: 0.8;
+        border-top: solid 3px white;
+        border-bottom: solid 3px white;
+        font-size: x-large;
+        font-weight: bolder;
+        text-align: center;
+        color: white;
+    
+    }
+
+    .gin11:hover {
+        background-color: black;
+        opacity: 1;   
+    }
+
+    .blue2 {
+        grid-area: gin2;
+        background-image: url("../images/pepino.jpeg");
+        background-size: 31vh;
+        background-repeat: repeat-x;
+        background-position: right;
+        border-top: white 3px solid;
+        border-bottom: white 3px solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: white;
+    }
+
+    .gin22 {
+        background-image: url("../images/hibiscus.jpeg");
+        background-size: cover;
+        opacity: 0.8;
+        border-top: solid 3px white;
+        border-bottom: solid 3px white;
+        font-size: x-large;
+        font-weight: bolder;
+        text-align: center;
+        color: white;
+    }
+
+    .gin22:hover {
+        background-color: black;
+        opacity: 1;   
+    }
+
+    .rose3 {
+        grid-area: gin3;
+        background-image: url("../images/rose.jpeg");
+        background-size: 28vh;
+        background-repeat: repeat-x;
+        background-position-x: center;
+        border-top: white 3px solid;
+        border-bottom: white 3px solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: white;
+        
+    }
+
+    .gin33 {
+        background-image: url("../images/pimienta.jpg");
+        background-size: cover;
+        opacity: 0.8;
+        border-top: solid 3px white;
+        border-bottom: solid 3px white;
+        font-size: x-large;
+        font-weight: bolder;
+        text-align: center;
+        color: white;
+    }
+
+    .gin33:hover {
+        background-color: black;
+        opacity: 1;   
+    }
+
+    .citrus4 {
+        grid-area: gin4;
+        background-image: url("../images/sour.jpeg");
+        background-size: 31vh;
+        background-repeat: repeat-x;
+        background-position-x: initial;
+        border-top: white 3px solid;
+        border-bottom: white 3px solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: white;
+    }
+
+    .gin44 {
+        background-image: url("../images/enebro.jpeg");
+        background-size: cover;
+        opacity: 0.8;
+        border-top: solid 3px white;
+        border-bottom: solid 3px white;
+        font-size: x-large;
+        font-weight: bolder;
+        text-align: center;
+        color: white;
+    }
+
+    .gin44:hover {
+        background-color: black;
+        opacity: 1;   
+    }
+
+    .gold5 {
+        grid-area: gin5;
+        background-image: url("../images/negroni.jpeg");
+        background-size: 62vh;
+        background-repeat: repeat-x;
+        background-position: right;
+        border-top: white 3px solid;
+        border-bottom: white 3px solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: white;
+    }
+
+    .gin55 {
+        background-image: url("../images/naranja.jpg");
+        background-size: cover;
+        opacity: 0.8;
+        border-top: solid 3px white;
+        border-bottom: solid 3px white;
+        font-size: x-large;
+        font-weight: bolder;
+        text-align: center;
+        
+    }
+
+    .gin55:hover {
+        background-color: black;
+        opacity: 1;   
+    }
+
+    .textHiden2 {
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        font-family: "M PLUS 1p", sans-serif;
+        font-weight: bolder;
+        font-size: xx-large;
+    }
+
+    .textHiden2:hover {
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        place-items: center;
+        display: inline-flex;
+        text-align: -webkit-center;
+    }
+}

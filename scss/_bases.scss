@@ -2,8 +2,12 @@ body{
     margin: 0px;
 }
 .fuente{
-    font-family: "STIX Two Text", serif;
-    font-weight: bold;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-weight: bolder;
+}
+
+.little{
+    font-size: large;
 }
 
 .fuenteFine{
@@ -29,4 +33,36 @@ body{
 
 .sombraGold:hover{
     box-shadow: inset 0px 0px 20px 2px goldenrod;
+}
+
+.sombra6:hover{
+    background-color: black;
+    opacity: 0.6;
+}
+
+.sombra7:hover{
+    opacity: 0.6;
+    background-color: #000067;
+}
+
+.sombra8:hover{
+    opacity: 0.6;
+    background-color: #d80570d6;
+}
+
+.sombra9:hover{
+    opacity: 0.6;
+    background-color: #b57a0e;
+}
+
+.sombra10:hover{
+    opacity: 0.6;
+    background-color: #825d00;  
+}
+
+.instagram{
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+    font-size: x-large;
 }

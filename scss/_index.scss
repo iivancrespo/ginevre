@@ -10,26 +10,27 @@
 
 body {
     .headers {
-        display: flex;
+        display: inline-block;
         width: auto;
         height: auto;
-        align-items: flex-end;
+        text-align: center;
 
         .tituloIndex {
             align-self: center;
             width: auto;
             height: auto;
-            padding-left: 40%;
             font-size: xxx-large;
             text-shadow: 1px 2px 0px goldenrod;
             letter-spacing: 1px;
             margin-top: 1%;
+            margin-bottom: 0;
         }
     }
 
     .subTit {
         align-self: flex-end;
-        margin-left: -26.5%;
+        font-style: italic;
+        margin-top: 1%;
     }
 }
 
@@ -63,8 +64,6 @@ body {
     .gin1:hover {
         transform: scale(0.9, 0.9);
         opacity: 0.9;
-        
-        
     }
     .gin2 {
         grid-area: gin2;
@@ -147,7 +146,8 @@ body {
         opacity: 0;
         width: 100%;
         height: 100%;
-        font-family: "STIX Two Text", serif;
+        font-family: "M PLUS 1p", sans-serif;
+        font-weight: bolder;
         font-size: xx-large;
     }
 
