@@ -4,8 +4,9 @@
         "header header header header header"
         "gin1 gin2 gin3 gin4 gin5"
         " footer footer footer footer footer";
-    grid-template-rows: 130px 600px 100px;
+    grid-template-rows: 1fr 5fr 0.5fr;
     grid-template-columns: 20% 20% 20% 20% 20%;
+    margin: 0;
 }
 
 body {
@@ -41,6 +42,7 @@ header {
 footer {
     grid-area: footer;
     background-image: linear-gradient(to bottom, rgb(236, 236, 236), rgb(49, 49, 49));
+    height: fit-content;
 }
 body {
     div {
@@ -188,3 +190,4 @@ footer {
         }
     }
 }
+

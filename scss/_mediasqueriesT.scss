@@ -1,0 +1,101 @@
+/* MEDIAS QUERIES DE TRAGOS GINEVRÉ */
+
+@media only screen and (max-width: 1024px) {
+    .gridTragos {
+        display: grid;
+        grid-template-areas:
+            "header header"
+            "gin1 gin11"
+            "gin2 gin22"
+            "gin3 gin33"
+            "gin4 gin44"
+            "gin5 gin55"
+            "footer footer";
+        grid-template-rows: 1fr;
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .gridTragos {
+        display: grid;
+        grid-template-areas:
+            "header header"
+            "gin1 gin11"
+            "gin2 gin22"
+            "gin3 gin33"
+            "gin4 gin44"
+            "gin5 gin55"
+            "footer footer";
+        grid-template-rows: 1fr;
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .gridTragos {
+        display: grid;
+        grid-template-areas:
+            "header"
+            "gin1"
+            "gin11"
+            "gin2"
+            "gin22"
+            "gin3"
+            "gin33"
+            "gin4"
+            "gin44"
+            "gin5"
+            "gin55"
+            "footer";
+        grid-template-rows: 0.4fr 1fr 0.8fr 1fr 0.8fr 1fr 0.8fr 1fr 0.8fr 1fr 1fr auto;
+        grid-template-columns: 100%;
+    }
+}
+
+
+
+@media only screen and (max-width: 480px) {
+    .gridTragos {
+        display: grid;
+        grid-template-areas:
+            "header"
+            "gin1"
+            "gin11"
+            "gin2"
+            "gin22"
+            "gin3"
+            "gin33"
+            "gin4"
+            "gin44"
+            "gin5"
+            "gin55"
+            "footer";
+        grid-template-rows: 0.4fr 1fr 0.8fr 1fr 0.8fr 1fr 0.8fr 1fr 0.8fr 1fr 1fr auto;
+        grid-template-columns: 100%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .gridTragos {
+        display: grid;
+        grid-template-areas:
+            "header"
+            "gin1"
+            "gin11"
+            "gin2"
+            "gin22"
+            "gin3"
+            "gin33"
+            "gin4"
+            "gin44"
+            "gin5"
+            "gin55"
+            "footer";
+        grid-template-rows: 0.4fr 0.7fr 0.7fr 0.7fr 0.7fr 0.7fr 0.7fr 0.7fr 0.7fr 0.7fr 1fr auto;
+        grid-template-columns: 100%;
+    }
+}
+
+
+

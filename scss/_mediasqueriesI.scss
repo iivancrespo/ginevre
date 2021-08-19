@@ -1,0 +1,208 @@
+/*MEDIAS QUERIES DEL INDEX*/
+
+@media only screen and (max-width: 1024px) {
+    #grid {
+        display: grid;
+        grid-template-areas:
+            "header"
+            "gin1"
+            "gin2"
+            "gin3"
+            "gin4"
+            "gin5"
+            "footer";
+        grid-template-rows: 1fr 2fr 2fr 2fr 2fr 2fr 1fr;
+        grid-template-columns: 100%;
+    }
+
+    .gin1{
+        background-position: center !important;
+    }
+
+    .gin2{
+        background-position: center !important;
+    }
+
+    .gin3{
+        background-position: bottom !important;
+    }
+
+    .gin4{
+        background-position: center !important;
+    }
+
+    .gin5{
+        background-position: center !important;
+    }
+
+    .listFIndex{
+        flex-direction: column !important;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #grid {
+        display: grid;
+        grid-template-areas:
+            "header"
+            "gin1"
+            "gin2"
+            "gin3"
+            "gin4"
+            "gin5"
+            "footer";
+        grid-template-rows: 1fr 2fr 2fr 2fr 2fr 2fr 1fr;
+        grid-template-columns: 100%;
+    }
+
+    .gin1{
+        background-position: center !important;
+    }
+
+    .gin2{
+        background-position: center !important;
+    }
+
+    .gin3{
+        background-position: bottom !important;
+    }
+
+    .gin4{
+        background-position: center !important;
+    }
+
+    .gin5{
+        background-position: center !important;
+    }
+
+    .listFIndex{
+        flex-direction: column !important;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #grid {
+        display: grid;
+        grid-template-areas:
+            "header"
+            "gin1"
+            "gin2"
+            "gin3"
+            "gin4"
+            "gin5"
+            "footer";
+        grid-template-rows: 1fr 2fr 2fr 2fr 2fr 2fr 1fr;
+        grid-template-columns: 100%;
+    }
+
+    .gin1{
+        background-position: center !important;
+    }
+
+    .gin2{
+        background-position: center !important;
+    }
+
+    .gin3{
+        background-position: bottom !important;
+    }
+
+    .gin4{
+        background-position: center !important;
+    }
+
+    .gin5{
+        background-position: center !important;
+    }
+
+    .listFIndex{
+        flex-direction: column !important;
+        align-items: center;
+    }
+}
+
+
+
+@media only screen and (max-width: 480px) {
+    #grid {
+        display: grid;
+        grid-template-areas:
+            "header"
+            "gin1"
+            "gin2"
+            "gin3"
+            "gin4"
+            "gin5"
+            "footer";
+        grid-template-rows: 1fr;
+        grid-template-columns: 100%;
+    }
+
+    .gin1{
+        background-position: center !important;
+    }
+
+    .gin2{
+        background-position: center !important;
+    }
+
+    .gin3{
+        background-position: bottom !important;
+    }
+
+    .gin4{
+        background-position: center !important;
+    }
+
+    .gin5{
+        background-position: center !important;
+    }
+
+    .listFIndex{
+        flex-direction: column !important;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #grid {
+        display: grid;
+        grid-template-areas:
+            "header"
+            "gin1"
+            "gin2"
+            "gin3"
+            "gin4"
+            "gin5"
+            "footer";
+        grid-template-rows: 1fr;
+        grid-template-columns: 100%;
+    }
+
+    .gin1{
+        background-position: center !important;
+    }
+
+    .gin2{
+        background-position: center !important;
+    }
+
+    .gin3{
+        background-position: bottom !important;
+    }
+
+    .gin4{
+        background-position: center !important;
+    }
+
+    .gin5{
+        background-position: center !important;
+    }
+
+    .listFIndex{
+        flex-direction: column !important;
+        align-items: center;
+    }
+}

@@ -1,8 +1,10 @@
+@charset "UTF-8";
 #grid {
   display: grid;
   grid-template-areas: "header header header header header" "gin1 gin2 gin3 gin4 gin5" " footer footer footer footer footer";
-  grid-template-rows: 130px 600px 100px;
-  grid-template-columns: 20% 20% 20% 20% 20%; }
+  grid-template-rows: 1fr 5fr 0.5fr;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  margin: 0; }
 
 body .headers {
   display: inline-block;
@@ -30,7 +32,8 @@ header {
 
 footer {
   grid-area: footer;
-  background-image: linear-gradient(to bottom, #ececec, #313131); }
+  background-image: linear-gradient(to bottom, #ececec, #313131);
+  height: fit-content; }
 
 body div .gin1 {
   grid-area: gin1;
@@ -204,7 +207,8 @@ main {
   background-color: #ececec;
   border: 10px solid white;
   border-right: 0px;
-  padding: 4%; }
+  padding: 4%;
+  height: fit-content; }
 
 .section2 {
   grid-area: section2;
@@ -340,7 +344,8 @@ body {
   opacity: 0.72;
   padding: 4% 1% 0% 1%;
   margin-right: 1%;
-  text-align: center; }
+  text-align: center;
+  overflow: scroll; }
 
 .gridTragos {
   display: grid;
@@ -509,3 +514,190 @@ body .textHiden2:hover {
   place-items: center;
   display: inline-flex;
   text-align: -webkit-center; }
+
+/*MEDIAS QUERIES DEL INDEX*/
+@media only screen and (max-width: 1024px) {
+  #grid {
+    display: grid;
+    grid-template-areas: "header" "gin1" "gin2" "gin3" "gin4" "gin5" "footer";
+    grid-template-rows: 1fr 2fr 2fr 2fr 2fr 2fr 1fr;
+    grid-template-columns: 100%; }
+  .gin1 {
+    background-position: center !important; }
+  .gin2 {
+    background-position: center !important; }
+  .gin3 {
+    background-position: bottom !important; }
+  .gin4 {
+    background-position: center !important; }
+  .gin5 {
+    background-position: center !important; }
+  .listFIndex {
+    flex-direction: column !important;
+    align-items: center; } }
+
+@media only screen and (max-width: 768px) {
+  #grid {
+    display: grid;
+    grid-template-areas: "header" "gin1" "gin2" "gin3" "gin4" "gin5" "footer";
+    grid-template-rows: 1fr 2fr 2fr 2fr 2fr 2fr 1fr;
+    grid-template-columns: 100%; }
+  .gin1 {
+    background-position: center !important; }
+  .gin2 {
+    background-position: center !important; }
+  .gin3 {
+    background-position: bottom !important; }
+  .gin4 {
+    background-position: center !important; }
+  .gin5 {
+    background-position: center !important; }
+  .listFIndex {
+    flex-direction: column !important;
+    align-items: center; } }
+
+@media only screen and (max-width: 600px) {
+  #grid {
+    display: grid;
+    grid-template-areas: "header" "gin1" "gin2" "gin3" "gin4" "gin5" "footer";
+    grid-template-rows: 1fr 2fr 2fr 2fr 2fr 2fr 1fr;
+    grid-template-columns: 100%; }
+  .gin1 {
+    background-position: center !important; }
+  .gin2 {
+    background-position: center !important; }
+  .gin3 {
+    background-position: bottom !important; }
+  .gin4 {
+    background-position: center !important; }
+  .gin5 {
+    background-position: center !important; }
+  .listFIndex {
+    flex-direction: column !important;
+    align-items: center; } }
+
+@media only screen and (max-width: 480px) {
+  #grid {
+    display: grid;
+    grid-template-areas: "header" "gin1" "gin2" "gin3" "gin4" "gin5" "footer";
+    grid-template-rows: 1fr;
+    grid-template-columns: 100%; }
+  .gin1 {
+    background-position: center !important; }
+  .gin2 {
+    background-position: center !important; }
+  .gin3 {
+    background-position: bottom !important; }
+  .gin4 {
+    background-position: center !important; }
+  .gin5 {
+    background-position: center !important; }
+  .listFIndex {
+    flex-direction: column !important;
+    align-items: center; } }
+
+@media only screen and (max-width: 320px) {
+  #grid {
+    display: grid;
+    grid-template-areas: "header" "gin1" "gin2" "gin3" "gin4" "gin5" "footer";
+    grid-template-rows: 1fr;
+    grid-template-columns: 100%; }
+  .gin1 {
+    background-position: center !important; }
+  .gin2 {
+    background-position: center !important; }
+  .gin3 {
+    background-position: bottom !important; }
+  .gin4 {
+    background-position: center !important; }
+  .gin5 {
+    background-position: center !important; }
+  .listFIndex {
+    flex-direction: column !important;
+    align-items: center; } }
+
+/*MEDIAS QUERIES DE CONTACTO*/
+@media only screen and (max-width: 768px) {
+  #gridContacto {
+    display: grid;
+    grid-template-areas: "header" "main" "section" "section2" "footer";
+    grid-template-rows: 0.2fr 1fr 0.5fr 0.6fr auto;
+    grid-template-columns: 100%; }
+  .containUbi {
+    inline-size: fit-content !important; } }
+
+@media only screen and (max-width: 600px) {
+  #gridContacto {
+    display: grid;
+    grid-template-areas: "header" "main" "section" "section2" "footer";
+    grid-template-rows: 0.2fr 1fr 0.5fr 0.6fr auto;
+    grid-template-columns: 100%; }
+  .containUbi {
+    inline-size: fit-content !important; } }
+
+@media only screen and (max-width: 480px) {
+  #gridContacto {
+    display: grid;
+    grid-template-areas: "header" "main" "section" "section2" "footer";
+    grid-template-rows: 0.3fr 1fr 0.5fr 1fr auto;
+    grid-template-columns: 100%; }
+  .containUbi {
+    inline-size: fit-content !important; } }
+
+@media only screen and (max-width: 320px) {
+  #gridContacto {
+    display: grid;
+    grid-template-areas: "header" "main" "section" "section2" "footer";
+    grid-template-rows: 0.3fr 1fr 0.5fr 1fr auto;
+    grid-template-columns: 100%; }
+  .containUbi {
+    inline-size: fit-content !important; } }
+
+/* MEDIAS QUERIES DE NOSOTROS*/
+@media only screen and (max-width: 600px) {
+  .fuente {
+    font-size: x-large; } }
+
+@media only screen and (max-width: 480px) {
+  .fuente {
+    font-size: large; } }
+
+@media only screen and (max-width: 320px) {
+  .fuente {
+    font-size: medium; } }
+
+/* MEDIAS QUERIES DE TRAGOS GINEVRÉ */
+@media only screen and (max-width: 1024px) {
+  .gridTragos {
+    display: grid;
+    grid-template-areas: "header header" "gin1 gin11" "gin2 gin22" "gin3 gin33" "gin4 gin44" "gin5 gin55" "footer footer";
+    grid-template-rows: 1fr;
+    grid-template-columns: 50% 50%; } }
+
+@media only screen and (max-width: 768px) {
+  .gridTragos {
+    display: grid;
+    grid-template-areas: "header header" "gin1 gin11" "gin2 gin22" "gin3 gin33" "gin4 gin44" "gin5 gin55" "footer footer";
+    grid-template-rows: 1fr;
+    grid-template-columns: 50% 50%; } }
+
+@media only screen and (max-width: 600px) {
+  .gridTragos {
+    display: grid;
+    grid-template-areas: "header" "gin1" "gin11" "gin2" "gin22" "gin3" "gin33" "gin4" "gin44" "gin5" "gin55" "footer";
+    grid-template-rows: 0.4fr 1fr 0.8fr 1fr 0.8fr 1fr 0.8fr 1fr 0.8fr 1fr 1fr auto;
+    grid-template-columns: 100%; } }
+
+@media only screen and (max-width: 480px) {
+  .gridTragos {
+    display: grid;
+    grid-template-areas: "header" "gin1" "gin11" "gin2" "gin22" "gin3" "gin33" "gin4" "gin44" "gin5" "gin55" "footer";
+    grid-template-rows: 0.4fr 1fr 0.8fr 1fr 0.8fr 1fr 0.8fr 1fr 0.8fr 1fr 1fr auto;
+    grid-template-columns: 100%; } }
+
+@media only screen and (max-width: 320px) {
+  .gridTragos {
+    display: grid;
+    grid-template-areas: "header" "gin1" "gin11" "gin2" "gin22" "gin3" "gin33" "gin4" "gin44" "gin5" "gin55" "footer";
+    grid-template-rows: 0.4fr 0.7fr 0.7fr 0.7fr 0.7fr 0.7fr 0.7fr 0.7fr 0.7fr 0.7fr 1fr auto;
+    grid-template-columns: 100%; } }
